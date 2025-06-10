@@ -1,6 +1,6 @@
 from django.db import models
 from rest_framework import serializers
-from .models import Book
+
 
 # Create your models here.
 class Book(models.Model):

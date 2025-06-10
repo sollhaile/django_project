@@ -1,7 +1,3 @@
-from rest_framework import generics
-from .models import Book
-from .serializers import BookSerializer
-
-class BookListCreateView(generics.ListCreateAPIView):
-    queryset = Book.objects.all()
-    serializer_class = BookSerializer
+from django.http import HttpResponse
+def test_view(request):
+    return HttpResponse("TEST VIEW WORKS!")  # Simple response

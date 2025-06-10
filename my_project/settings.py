@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
+    'rest_framework',
+    'my_app',               # ✅ Add 
+    'django_extensions',  # Optional: for additional management commands
+
 ]
 
 MIDDLEWARE = [
