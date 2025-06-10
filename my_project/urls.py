@@ -9,6 +9,6 @@ from my_app.views import test_view
 urlpatterns = [
     path('hardcoded-test/', hardcoded_test),
     path('admin/', admin.site.urls),
-    path('api/books/', views.BookListCreateAPIView.as_view(), name="book_list_create"),  # Your original view
+    path('api/books/', test_view),  # Your original view
 
 ]
